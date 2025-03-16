@@ -2,7 +2,7 @@ import time
 import streamlit as st
 from PIL import Image
 from io import BytesIO
-import remove  # type: ignore
+from rembg import remove  
 
 
 st.set_page_config(layout="wide",page_title="Image Background Remover", page_icon="📷" )
